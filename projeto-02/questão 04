@@ -1,0 +1,9 @@
+# mudando datas
+ano = 2025
+nasc = 1998
+idade = 2025 - 1998
+print(f'Uma pessoa nascida em 1998 terá {idade} anos em 2025')
+ano2 = 2050
+nasc2 = 2022
+idade2 = 2050 - 2022
+print(f'Uma pessoa nascida hoje terá {idade2} anos em 2050')
