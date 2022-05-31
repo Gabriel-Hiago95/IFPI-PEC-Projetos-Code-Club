@@ -1,0 +1,14 @@
+# atividade 08 - padrões em ascii
+# criando um retângulo
+print('jeito difícil...')
+print('##########')
+print('##########')
+print('##########')
+print('jeito fácil...')
+print('#' * 10)
+print('#' * 10)
+print('#' * 10)
+
+#criando uma onda
+print('/\    ' * 10)
+print('    \/' * 10)
