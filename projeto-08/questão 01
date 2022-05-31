@@ -1,0 +1,14 @@
+# Desafio: Adicione mais cumprimentos
+from random import *
+
+print('Gerador de cumprimentos')
+print('---------------------------------')
+
+adjetivos = ['maravilhoso', 'acima da média', 'excelente', 'excepcional', 'espetacular']
+
+hobbies = ['andar de bicicleta', 'programar', 'fazer chá', 'jogar videogame', 'plantar bananeira']
+
+nome = input('Qual seu nome? ').strip()
+print(f'Aqui está o seu cumprimento {nome}:')
+print(f'{nome} você é {choice(adjetivos)} em {choice(hobbies)}')
+print('De nada!')
