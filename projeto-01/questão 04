@@ -1,0 +1,9 @@
+# atividade 04 - sobre mim
+print('meu animal favorito é o cachorro\n0_____\n    ||||    ')
+print('''eu moro em Teresina
+|------|
+   ||
+   ||
+   ||
+   ||
+_____''')
