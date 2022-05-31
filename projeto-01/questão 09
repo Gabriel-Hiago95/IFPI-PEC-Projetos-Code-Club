@@ -1,0 +1,10 @@
+# atividade 09 - programando um dinossauro
+print('parabéns!!!')
+print('''                                               ______
+                                                        /               )
+                                                    /               __
+                            . ----  ^ ^ ^  ---/              /
+                        /                                   /
+              ____                                   /
+        <    ____. |       |     ---     |       |
+                            __                    __''')
