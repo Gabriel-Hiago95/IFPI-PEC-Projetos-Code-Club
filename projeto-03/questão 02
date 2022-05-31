@@ -1,0 +1,14 @@
+# desafio: quiz de múltipla escolha
+print('Quem descobriu o Brasil? (responda com a alternativa correta ; ))')
+print('''a - Pedro Álvares Cabral
+b - Pero Vaz de Caminha
+c - Vasco da Gama
+d - Fernão de Magalhães
+e - Cristóvão Colombo''')
+resposta = input('Sua resposta por favor: ')
+if resposta.lower() == 'a':
+    print('Parabéns! você manja de história!')
+elif resposta.lower() in ('b', 'c', 'd', 'e'):
+    print('Você errou! Estude mais!')
+else:
+    print('Você não respondeu corretamente, tente de novo...')
