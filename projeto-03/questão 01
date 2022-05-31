@@ -1,0 +1,6 @@
+# desafio: questão de tempo
+resposta = input(('Quem descobriu o Brasil? ').strip())
+if resposta.lower() in ('pedro álvares cabral', 'pedro alvares cabral'):
+    print('Parabéns! você manja de história!')
+else:
+    print('Você errou! Estude mais!')
