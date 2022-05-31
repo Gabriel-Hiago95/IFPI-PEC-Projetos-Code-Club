@@ -1,0 +1,42 @@
+# Desafio 2: Escolhendo os hobbies
+from random import *
+
+executa = True
+adjetivos = ['maravilhoso', 'acima da média', 'excelente', 'excepcional', 'espetacular']
+
+hobbies = ['andar de bicicleta', 'programar', 'fazer chá', 'jogar videogame', 'plantar bananeira']
+
+print('Gerador de cumprimentos')
+print('---------------------------------')
+
+nome = input('Qual seu nome? ').strip()
+print('''
+Menu
+c = obter cumprimento
+a = adicionar hobby
+d = remover hobby
+p = imprimir hobbies
+q = sair
+''')
+while executa == True:
+    menuchoice = input('\n>_').lower()
+    if menuchoice == 'c':
+        print(f'Aqui está o seu cumprimento {nome}:')
+        print(f'{nome} você é {choice(adjetivos)} em {choice(hobbies)}')
+        print('De nada!')
+    elif menuchoice == 'a':
+        itemtoadd = input('Adicione o hobby: ').strip()
+        if itemtoadd not in hobbies:
+            hobbies.append(itemtoadd)
+    elif menuchoice == 'd':
+        itemtodelete = input('Insira o hobby a ser removido: ').strip()
+        if itemtodelete in hobbies:
+            hobbies.remove(itemtodelete)
+        else:
+            print('O hobby não está na lista!')
+    elif menuchoice = 'p':
+        print(hobbies)
+    elif menuchoice == 'q':
+        executa = False
+    else:
+        print('Insira uma opção válida!')
