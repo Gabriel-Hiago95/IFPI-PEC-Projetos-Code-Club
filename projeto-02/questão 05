@@ -1,0 +1,6 @@
+# variáveis
+print('Em que ano você nasceu? ')
+nasc = input()
+nasc = int(nasc)
+idade = 2025 - nasc
+print('em 2025 você terá', idade, 'anos!')
