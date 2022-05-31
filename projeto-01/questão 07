@@ -1,0 +1,4 @@
+# atividade 07 - palavras e números
+print('eu ' + 'me chamo ' + 'Gabriel')
+print('a' + 'ba' + 'ca' + 'te')
+print('a' + 'ra' * 2)
