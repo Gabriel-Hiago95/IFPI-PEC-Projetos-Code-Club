@@ -1,0 +1,4 @@
+# desafio: Sua idade em anos de cachorro
+idade = int(input('Quantos anos você tem? '))
+idade_cachorro = idade * 7
+print('Se você fosse um cachorro, você teria {} anos!'.format(idade_cachorro))
