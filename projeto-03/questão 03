@@ -1,0 +1,23 @@
+# desafio: mantendo a pontuação
+print('Pergunta 01: Quanto é 2 + 2? (responda com a alternativa correta ; ))')
+print('''a - 2
+b - 5
+c - 4''')
+resposta1 = input('Sua resposta por favor: ')
+print('Pergunta 02: Quanto é 5 + 5? (responda com a alternativa correta ; ))')
+print('''a - 11
+b - 10
+c - não sei''')
+resposta2 = input('Sua resposta por favor: ')
+score = 0
+if resposta1.lower() == 'c' and resposta2.lower() == 'b':
+    score = score + 2
+    print('Obrigado por resolver nosso quiz, sua pontuação final foi de {}'.format(score))
+elif resposta1.lower() in ('b', 'a') and resposta2.lower() in ('a', 'c'):
+    pass
+    print('Obrigado por resolver nosso quiz, sua pontuação final foi de {}'.format(score))
+elif resposta1.lower() == 'c' or resposta2.lower() == 'b':
+    score = score + 1
+    print('Obrigado por resolver nosso quiz, sua pontuação final foi de {}'.format(score))
+else:
+    print('Você não respondeu corretamente, tente de novo...')
