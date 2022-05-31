@@ -1,0 +1,26 @@
+# desafio: como eu fiz?
+print('Pergunta 01: Quanto é 2 + 2? (responda com a alternativa correta ; ))')
+print('''a - 2
+b - 5
+c - 4''')
+resposta1 = input('Sua resposta por favor: ')
+print('Pergunta 02: Quanto é 5 + 5? (responda com a alternativa correta ; ))')
+print('''a - 11
+b - 10
+c - não sei''')
+resposta2 = input('Sua resposta por favor: ')
+score = 0
+if resposta1.lower() == 'c' and resposta2.lower() == 'b':
+    score = score + 2
+    print('Obrigado por resolver nosso quiz, sua pontuação final foi de {}'.format(score))
+    print('Parabéns! você é um gênio da matemática!')
+elif resposta1.lower() in ('b', 'a') and resposta2.lower() in ('a', 'c'):
+    pass
+    print('Obrigado por resolver nosso quiz, sua pontuação final foi de {}'.format(score))
+    print('Que pena, você errou, estude mais!')
+elif resposta1.lower() == 'c' or resposta2.lower() == 'b':
+    score = score + 1
+    print('Obrigado por resolver nosso quiz, sua pontuação final foi de {}'.format(score))
+    print('Bom, pelo menos não errou tudo!')
+else:
+    print('Você não respondeu corretamente, tente de novo...')
