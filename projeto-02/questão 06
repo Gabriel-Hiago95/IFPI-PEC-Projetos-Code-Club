@@ -1,0 +1,5 @@
+# desafio: O ano 3000!
+nasc = int(input('Em que ano você nasceu? '))
+ano = int(input('Para qual ano você quer saber sua idade? '))
+idade = ano - nasc
+print(f'No ano {ano} você terá {idade} anos!')
